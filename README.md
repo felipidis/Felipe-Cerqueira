@@ -4,28 +4,28 @@ Esse repositório vai acompanhar vocês até o final do curso, para mantermos a 
 
 ```
 .
-├── semana-1
+├── quinzena-1
 │   ├── aula1
 │   ├── aula2
 │   ├── aula3
 │   ├── aula4
 │   └── projeto-nome
 |
-├── semana-2
+├── quinzena-2
 │   ├── aula5
 │   ├── aula6
 │   ├── aula7
 │   ├── aula8
 │   └── projeto-nome
 |
-├── semana-3
+├── quinzena-3
 │   ├── aula9
 │   ├── aula10
 │   ├── aula11
 │   ├── aula12
 │   └── projeto-nome
 |
-├── semana-4
+├── quinzena-4
 │   ├── aula13
 │   ├── aula14
 │   ├── aula15
