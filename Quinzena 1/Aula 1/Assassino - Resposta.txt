@@ -1,0 +1,52 @@
+Histórico de Comandos:
+
+    1  grep -r PISTA *
+    2  grep -r Annabel *
+    3  grep -r cafeteria *
+    4  grep -r Church *
+    5  grep -r -C 5 AAA *
+    6  cat entrevistas/entrevista-290346
+    7  head -n 20 pessoas
+    8  grep -r Annabel Church ruas
+    9  grep -r Annabel Church pessoa
+   10  grep -r Annabel Church pessoas
+   11  grep -r linha 179 ruas
+   12  grep -r Vila Buckingham ruas
+   13  grep -r Vila Buckingham *
+   14  cat ruas/Vila_Buckingham
+   15  cat entrevistas/entrevista-699607
+   16  grep -r Honda *
+   17  grep -r Honda *| grep -r Azul *
+   18  grep -r Honda * && grep -r Azul *
+   19  grep -r L337 automoveis
+   20  grep -r  -C 10 L337 automoveis
+   21  grep -r  -A 6 L337 automoveis
+   22  grep -r Jacqui Maher pessoas
+   23  grep -r Joe Germuska pessoas
+   24  grep -r Jeremy Bowers pessoas
+   25  cat ruas/Rua_Plainfield
+   26  cat entrevistas/entrevista-29741223
+   27  cat ruas/Travessa_Dunstable
+   28  cat entrevistas/entrevista-9620713
+   29  grep -r Erika Owens pessoas
+   30  cat ruas/Rua_Trapelo
+   31  cat entrevistas/entrevista-
+   32  cat entrevistas/entrevista-
+   33  cat entrevistas/entrevista-$ 5455315
+   34  cat entrevistas/entrevista-5455315
+   35  grep -r Aron Pilhofer pessoas
+   36  cat ruas/Rua_Claybourne
+   37  cat entrevistas/entrevista-1767435
+   38  grep -r Jacqui Maher pessoas
+   39  cat ruas/Travessa_Andover
+   40  cat entrevistas/entrevista-904020
+   41  grep -r heather Billings pessoas
+   42  grep -r "Heather Billings" pessoas
+   43  cat ruas/Rua_Culbert
+   44  cat entrevistas/entrevista-2939888
+   45  grep -r Jeremy Bowers associacoes/*
+   46  grep -r Mike Bostock associacoes/*
+
+Solução:
+	Considerando as informações que foram dadas pelas pistas e o depoimento da Srta. Church, sabemos que o suspeito era um homem com uma altura mínima de 1,83 m, era proprietário de um Honda Azul com placa de início L337 terminando em 9 e ele participava de 4 grupos que eram : AAA, Delta SkyMiles, Museu da História do Bash e Biblioteca.
+	Com esses dados poderíamos ter como suspeitos : Joe Germuska, Jeremy Bowers e Mike Bostock. Joe não participava dos 4 grupos e tinha um álibi, assim como Mike Bostock, sendo assim só resta como suspeito Jeremy Bowers que estava desaparecido tendo supostamente viajado. Concluo assim que o assassino é Jeremy Bowers. 

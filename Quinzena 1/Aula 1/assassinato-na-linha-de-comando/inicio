@@ -1,0 +1,13 @@
+Aconteceu um assassinato na Cidade do Terminal, e a polícia precisa da sua ajuda.
+
+Para descobrir o culpado, vá até o subdiretório "misterio" e comece investigando
+por lá.
+
+Você provavelmente vai querer começar analisando todas as pistas que foram
+encontradas na cena do crime (arquivo "cena-do-crime").
+
+Os policiais que analisaram a cena foram bastante detalhistas e colocaram, neste
+arquivo, TUDO que encontraram.
+
+Felizmente, o sargento analisou o relatório e marcou as pistas reais com a
+palavra "PISTA", em maiúsculas.
