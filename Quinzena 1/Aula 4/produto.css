@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: red;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.header a{
+    margin: 0;
+    padding: 0 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    background-color: #1c1b1b;
+}
+
+h2{
+    text-align: center;
+}
+
+.forms{
+    margin: 187px 0;
+    
+}
+
+.formu label{
+    color: white;
+    background-color: black;
+}
+
+.formu{
+    
+    text-align: center;
+}
+
+.form-add{
+    text-align: center
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 25px;
+}

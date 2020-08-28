@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: cursive;
+    background-color: lightgray
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(204, 59, 6);
+}
+
+header {
+    background-color: orangered;
+    padding: 12px;
+}
+
+header h3 {
+    color: white;
+    text-align: center;
+}
+
+article {
+    text-align: center
+}
+
+article img {
+    width: 50%;
+}
+
+article img:hover {
+    width: 80%;
+}

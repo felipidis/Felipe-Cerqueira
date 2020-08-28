@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: red;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.header a{
+    margin: 0;
+    padding: 0 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    background-color: #1c1b1b;
+}
+
+h2{
+    text-align: center;
+}
+
+.tab{
+    text-align: center;
+}
+
+.tab th{
+    color: white;
+    padding: 16px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.tab td{
+    padding: 16px;
+    border: 2px solid black;
+    background-color: white
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
