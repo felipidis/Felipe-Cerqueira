@@ -19,6 +19,7 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border-width: 0 0 5px ;
 }
 
 button:focus {
@@ -143,5 +144,5 @@ button:active{
 }
 
 button:hover{
-        background-color: #cca80a;
+    background-color: #d8b30d;
 }
