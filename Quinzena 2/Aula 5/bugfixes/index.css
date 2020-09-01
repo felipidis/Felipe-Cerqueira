@@ -107,6 +107,10 @@ table {
     text-align: center;
 }
 
+table img{
+    width: 50px;
+}
+
 td button {
     background-color: #fadf63;
     width: 150px;
