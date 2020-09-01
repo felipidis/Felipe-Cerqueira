@@ -124,7 +124,6 @@ td button {
     height: 100px;
 }
 
-
 #back-button {
     background-color: white;
     width: 100px;
@@ -137,4 +136,12 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+button:active{
+    color: white;
+}
+
+button:hover{
+        background-color: #cca80a;
 }
