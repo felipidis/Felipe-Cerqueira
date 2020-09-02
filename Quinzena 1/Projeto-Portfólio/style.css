@@ -12,9 +12,17 @@ header {
     background-color: red;
 }
 
+img{
+    margin: 2px 0;
+    width: 40%;
+}
+
 header img {
     width: 200px;
+}
 
+nav h4{
+    color: white;
 }
 
 nav ul {
@@ -39,4 +47,8 @@ nav li a {
 
 nav li a:hover {
     background-color: #111;
+}
+
+#footer{
+    margin-top: 4px;
 }
