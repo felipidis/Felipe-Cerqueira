@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main{
+    background-color: darkkhaki;
+}
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+header{
+    height: 10vh;
+    background-color: rgb(245, 129, 21);
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    margin-left: 2%;
+}
+
+header input{
+    margin-left: 50%;
+    max-width: 40%;
+    height: 40%;
+}
+
+section{
+    width: 95%;
+    height: 80vh;
+    margin: 20px auto;
+}
+
+section h3{
+    margin-bottom: 20px;    
+}
+
+section video{
+    width: 60%;
+}
+
+footer{
+    height: 7%;
+    display: grid;
+    background-color: darkgrey;
+    align-content: center;
+}

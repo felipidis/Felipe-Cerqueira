@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+    background-color: darkkhaki;
+}
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+header{
+    height: 7%;
+    background-color: rgb(245, 129, 21);
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    margin-left: 2%;
+}
+
+header input{
+    margin-left: 70%;
+    max-width: 20%;
+    height: 40%;
+}
+
+section{
+    width: 95%;
+    height: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(4,1fr);
+    grid-gap: 10px 10px;
+}
+
+section div{
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
+section div p{
+    margin: 10px 0;
+}
+
+footer{
+    height: 7%;
+    display: grid;
+    background-color: darkgrey;
+    align-content: center;
+}
