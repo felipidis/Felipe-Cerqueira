@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*
+    Aqui vai a estilização do cabeçalho que contém os botões de navegação. 
+*/
+header{
+    width: 100%;
+    background-color: #fc944c;
+    font-family: cursive;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+}
+
+/*
+    Definindo o tamanho da logo no cabeçalho.  
+*/
+header img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*
+    Estilização dos links de navegação.  
+*/
+header a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+header a:hover{
+    background-color: #fcd18b;   
+}
+
+/*
+    Botão fictício para se tornar um cliente.  
+*/
+header button{
+    width: 80%;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: #fc944c ;
+    border: none;
+}
+
+header button:hover{
+    background-color: #fcd18b; 
+}
+
+/*
+    Área dedicada para a mensagem de convite para conhecer os serviços.
+*/
+#faixa{
+    background-color: #fcebd7;
+    height: 400px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: monospace;
+}
+
+#faixa h1{
+    padding-top: 2em;
+}
+
+/*
+    Apresentação da empresa aba "Quem Somos".
+*/
+#sobre div{
+    background-color: #fcd18b;
+    width: 80%;
+    text-align: center;
+    margin: 5em auto;
+    padding: 3em;
+}
+
+#sobre div h1{
+    font-size: 2em;
+}
+
+#sobre div p{
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+
+/*
+    Faixa com os serviços que a empresa oferece. 
+*/
+#serviços{
+    display: grid;
+    width: 80%;
+    background-color: #fca36a;
+    line-height: 1.2;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    margin: 4em auto;
+    padding: 3em;
+}
+
+#serviços div{
+    background-color: #fcb98e;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+/*
+    Estilização do rodapé do site. 
+*/
+footer{
+    width: 100%;
+    background-color: #fc944c ;
+    text-align: center;
+}
+
+footer a img{
+    width: 5%;
+    padding: 30px;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+/*
+    A seguir temos as modificações das estilizações vistas acima para quando forem navegar em dispositivos móveis. 
+*/
+@media screen and (min-width: 320px) and (max-width: 414px){
+    header{
+        width: 100%;    
+        font-size: 0.65em;
+    }
+
+    header img{
+        width: 100%;
+    }
+
+    header button{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #faixa h1{
+        font-size: 1em ;
+    }
+
+    #faixa p{
+        font-size: 0.8em;
+    }
+    #sobre div{
+        padding: 2em;
+    }
+
+    #serviços{
+        padding: 2em;
+        grid-template: 1fr 1fr 1fr/ 1fr;
+        grid-gap: 10px;
+    }
+
+    footer a img{
+        width: 10%;
+    }
+}
