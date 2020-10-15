@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+#cadastro {
+    margin: 20px 20px 20px 20px;
+}
+
+#filtro {
+    margin: 60px 20px 20px 20px;
+}
+
+#despesas {
+    margin: 60px 20px 20px 20px;
+}
+
+#extrato {
+    margin: 20px 20px 0 20px;
+}
