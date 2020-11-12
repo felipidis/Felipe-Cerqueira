@@ -9,7 +9,7 @@ export class App extends React.Component {
   state = {
     phase: 1,
     button: true
-  }
+  } 
 
   phasesRender = () => {
     switch(this.state.phase){
